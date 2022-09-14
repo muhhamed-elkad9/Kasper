@@ -1,0 +1,155 @@
+/* Start Header */
+
+/* Mobile */
+@media (max-width: 499px) {
+  header .navbar-nav {
+    background-color: var(--main-color);
+    padding: 25px;
+  }
+  header .navbar-nav li a {
+    padding: 15px 10px;
+  }
+  header .navbar-nav li a.active,
+  header .navbar-nav li a:hover {
+    color: #fff !important;
+    border-bottom: 1px solid #fff !important;
+  }
+}
+
+/* Tablet */
+@media (min-width: 500px) and (max-width: 992px) {
+  header .navbar-nav {
+    background-color: var(--main-color);
+    padding: 25px;
+  }
+  header .navbar-nav li a {
+    padding: 15px 10px;
+  }
+  header .navbar-nav li a.active,
+  header .navbar-nav li a:hover {
+    color: #fff !important;
+    border-bottom: 1px solid #fff !important;
+  }
+}
+/* End Header */
+
+/* Start Landing */
+
+/* Small Mobile */
+@media (max-width: 300px) {
+  .carousel-inner .carousel-item .carousel-caption .text {
+    width: 168% !important;
+    top: -615% !important;
+  }
+}
+
+/* Mobile */
+@media (min-width: 301px) and (max-width: 540px) {
+  .carousel-inner .carousel-item .carousel-caption .text {
+    width: 128% !important;
+    top: -670% !important;
+  }
+}
+
+/* Tablet */
+@media (min-width: 541px) and (max-width: 992px) {
+  .carousel-inner .carousel-item .carousel-caption .text {
+    width: 116% !important;
+    top: -717% !important;
+  }
+}
+/* End Landing */
+
+/* Start Services */
+
+/* Medium */
+@media (max-width: 767px) {
+  .services .box {
+    margin-bottom: 40px;
+  }
+  .services .box svg {
+    margin-bottom: 30px;
+  }
+}
+/* End Services */
+
+/* Start service-bottom */
+
+/* Medium */
+@media (max-width: 767px) {
+  .service-bottom .image {
+    display: none;
+  }
+}
+/* End service-bottom */
+
+/* Start portfolio */
+
+/* Medium */
+@media (max-width: 768px) {
+  .portfolio .shuffle {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    padding-left: 0 !important;
+  }
+  .portfolio .shuffle li {
+    padding: 10px !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+}
+/* End portfolio */
+
+/* Start video  */
+
+/* Mobile */
+@media (max-width: 540px) {
+  .video .text {
+    padding: 15px;
+  }
+}
+/* End video  */
+
+/* Start ABOUT US */
+
+/* Medium */
+@media (max-width: 767px) {
+  .about-us img {
+    bottom: -60px;
+    margin-top: -60px;
+  }
+}
+/* End ABOUT US */
+
+/* Start About */
+
+/* Medium */
+@media (max-width: 767px) {
+  .about .test .box img {
+    margin: 0 auto 20px;
+  }
+}
+/* End About */
+
+/* Start subscribe */
+
+/* Mobile */
+@media (max-width: 540px) {
+  .subscribe p {
+    margin-top: 1rem;
+  }
+}
+/* End subscribe */
+
+/* Start contact */
+
+/* Medium */
+@media (max-width: 767px) {
+  .contact .info h4:nth-child(4) {
+    margin-top: 30px;
+  }
+  .contact .info address {
+    margin-bottom: 40px;
+  }
+}
+/* End contact */
